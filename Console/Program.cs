@@ -9,7 +9,7 @@ namespace NetCoreLab
             bool helloWorld = true;
 
             if(helloWorld){
-                Console.WriteLine("Hello World Stefanini!");
+                Console.WriteLine("Hello World!");
             }else{
                 Console.WriteLine("Bye Carpa!");
             }
