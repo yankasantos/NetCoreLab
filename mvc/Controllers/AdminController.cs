@@ -13,10 +13,10 @@ namespace mvc.Controllers
             return Content("Admin Controller " + nome + " token : " + token);
         }
 
-        [HttpGet("stefanini")]
-        public IActionResult Stefanini(){
+        [HttpGet("company")]
+        public IActionResult company(){
             var name = Request.Query["name"];
-            return Content("My first day at Stefanini! "+ name);
+            return Content("My first day at company! "+ name);
         }
 
         [HttpGet("view")]
